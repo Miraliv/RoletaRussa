@@ -169,7 +169,7 @@ public class RoletaRussa extends javax.swing.JFrame {
         
         if (numeroSorteado == 6) {
             lblText.setText("Você perdeu!");
-            //desligarComputador();
+            desligarComputador();
             lblText3.setText("Desligando o computador...");
         } else {
             lblText.setText("Você sobreviveu!");
